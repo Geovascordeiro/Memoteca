@@ -1,0 +1,22 @@
+{
+  "pensamentos":[
+    {
+      "id": 1,
+      "conteudo": "Que bom que voce veio",
+      "autoria": "Geo",
+      "modelo":"modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Estudando angular",
+      "autoria": "Geo",
+      "modelo":"modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Que bom que voce veio",
+      "autoria": "Geo",
+      "modelo":"modelo3"
+    }
+  ]
+}
