@@ -29,6 +29,24 @@
       "autoria": "Geovana",
       "modelo": "modelo1",
       "id": 5
+    },
+    {
+      "conteudo": "a vida é boa pra caramba!",
+      "autoria": "desconhecido",
+      "modelo": "modelo1",
+      "id": 6
+    },
+    {
+      "conteudo": "Quem quer dizer o que sente  Não sabe o que há-de dizer.  Fala: parece que mente...  Cala: parece esquecer..",
+      "autoria": "Fernando Pessoa",
+      "modelo": "modelo3",
+      "id": 8
+    },
+    {
+      "conteudo": "Geo é demais ",
+      "autoria": "geovana",
+      "modelo": "modelo3",
+      "id": 9
     }
   ]
 }

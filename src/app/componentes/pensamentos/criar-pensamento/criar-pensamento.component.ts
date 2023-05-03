@@ -1,8 +1,8 @@
 import { PensamentoService } from './../pensamento.service';
 import { Component, OnInit } from '@angular/core';
-import { Pensamento } from '../pensamento/pensamento';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+//import { minusculoValidator } from './minusculoValidators';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -28,14 +28,14 @@ export class CriarPensamentoComponent implements OnInit {
       ])],
       autoria: ['', Validators.compose([
         Validators.required,
-        Validators.minLength(3)
+        Validators.minLength(3),
+        //minusculoValidator
       ])],
       modelo: ['modelo1']
     })
   }
 
   criarPensamento() {
-    console.log(this.formulario.get('autoria')?.errors)
     if(this.formulario.valid){
       this.service.criar(this.formulario.value).subscribe(() => {
         this.router.navigate(['/listarPensamento'])
@@ -45,5 +45,12 @@ export class CriarPensamentoComponent implements OnInit {
   }
   cancelar() {
     this.router.navigate(['listarPensamento'])
+  }
+  habilitarBotao(): string {
+    if(this.formulario.valid){
+      return 'botao'
+    } else {
+      return 'botao__desabilitado'
+    }
   }
 }
