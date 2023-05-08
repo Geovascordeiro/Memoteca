@@ -1,0 +1,60 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que voce veio",
+      "autoria": "Geo",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 2,
+      "conteudo": "Geo Cordeiro",
+      "autoria": "aaaaaaaaaaaaa",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 3,
+      "conteudo": "Que bom que voce veio",
+      "autoria": "teste",
+      "modelo": "modelo1",
+      "favorito": true
+    },
+    {
+      "conteudo": "Pensamento de Teste",
+      "autoria": "Geovana",
+      "modelo": "modelo3",
+      "favorito": true,
+      "id": 4
+    },
+    {
+      "conteudo": "Deus é bom o tempo todo!",
+      "autoria": "Geovana",
+      "modelo": "modelo1",
+      "favorito": true,
+      "id": 5
+    },
+    {
+      "conteudo": "a vida é boa pra caramba!",
+      "autoria": "desconhecido",
+      "modelo": "modelo1",
+      "favorito": true,
+      "id": 6
+    },
+    {
+      "conteudo": "Quem quer dizer o que sente  Não sabe o que há-de dizer.  Fala: parece que mente...  Cala: parece esquecer..",
+      "autoria": "Fernando Pessoa",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 8
+    },
+    {
+      "conteudo": "Geo é demais ",
+      "autoria": "geovana",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 9
+    }
+  ]
+}
